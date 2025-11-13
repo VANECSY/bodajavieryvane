@@ -1138,7 +1138,7 @@ footer b {
 @media (max-width: 768px) {
   /* Overlay de entrada */
   .fade-overlay h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     padding: 0 20px;
   }
   
@@ -1397,7 +1397,7 @@ footer b {
 /* === RESPONSIVE - MÓVILES PEQUEÑOS === */
 @media (max-width: 480px) {
   .fade-overlay h2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
   
   header h1 {
