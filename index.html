@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boda Vanessa & Javier 💍</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Overlay romántico -->
+  <div class="fade-overlay">
+    <div class="overlay-content">
+      <span class="girasol-overlay">🌻</span>
+      <h2>💛Bienvenidos a este Capitulo 
+        <br>tan especial de nuestras vidas💛</h2>
+    </div>
+  </div>
+
+  <audio id="song" src="music/Llegaste.mp3" preload="auto" loop></audio>
+
+  <div class="intro" id="inicio">
+    <h2>Estas invitad@ a la boda de Javier  &  Vanessa 💍</h2>
+    <p>¿Quieres escuchar la música?<br>La música de fondo es parte de la experiencia ✨</p>
+    <div class="button-container">
+      <button class="button button-musica" onclick="startWithMusic()">Sí, con música 🎵</button>
+      <button class="button button-musica" onclick="startWithoutMusic()">No, sin música</button>
+    </div>
+  </div>
+
+  <div id="contenido" style="display:none;">
+    <header>
+      <h1>Javier  &  Vanessa</h1>
+      <p>🌻💛02.01.2026💛🌻</p>
+    </header>
+<div class="contador-wrapper">
+  <img src="img/img_circuloContador.png" alt="Marco de girasoles" class="marco-contador">
+  <div class="contador" id="contador">
+      <h3>Cuenta<br>Regresiva</h3>
+    <div class="time">
+      <div><span id="dias">50</span><small>días</small></div>
+      <div><span id="horas">11</span><small>hs</small></div>
+      <div><span id="minutos">17</span><small>min</small></div>
+      <div><span id="segundos">57</span><small>seg</small></div>
+    </div>
+  </div>
+</div>
+<img src="img/bordes_izquierdos.webp" alt="Girasoles decorativos izquierdo" class="girasol-contador-izq">
+
+<section class="fade-in" id="seccion-historia">
+      <div class="historia-contenido">
+        <div class="historia-texto">
+          <h2>🌻 Nuestra Historia 🌻</h2>
+          <p>Un amor que comenzó con juegos de niños...</p>
+          <p>Nuestra historia empezó en la infancia, en las colinas de Plan de Manzano. El tiempo siguió su curso y nos llevó por caminos distintos. Pero el destino, astuto y paciente, nos tenía reservado un reencuentro.</p>
+          <p>Nos volvimos a cruzar en un salón de la universidad, y bastó un aroma a vainilla para iniciar una conversación y revivir esa conexión de niños. Aunque no era aún nuestro momento y la vida volvió a separarnos, el amor, fiel a su promesa, nos juntó otra vez.</p>
+          <p>Al vernos de nuevo, al bailar como en aquellos días universitarios, fue como si el tiempo no hubiera pasado: supimos que esa amistad se había transformado en algo mucho más profundo.</p>
+          <p><strong>... Y un compromiso con tinta indeleble.</strong></p>
+          <p>Dicen que toda gran historia merece ser escrita. La nuestra es una hermosa obra, con capítulos de risas, momentos buenos y malos, pero siempre tomados de la mano. Con la certeza de haber encontrado a nuestra persona para compartir la vida, tomamos la decisión más importante: cambiar el bolígrafo 🖊️ por un marcador permanente 🖍️.</p>
+        </div>
+        <div class="historia-imagen">
+          <div class="imagen"><img src="img/2_1.jpeg" alt="Nuestra historia"></div>
+        </div>
+      </div>
+    </section>
+<img src="img/girasol_derecho.PNG" alt="Girasoles decorativos derecho" class="girasol-historia-derecho">
+
+<section class="fade-in" id="seccion-espera">
+      <div class="espera-contenido">
+        <div class="espera-texto">
+          <h2>🥂 Se Acabó la Espera 🥂</h2>
+          <p>¡Llegó nuestro momento después de un par de años comprometidos!</p>
+          <p>Hemos elegido seguir avanzando y construyendo este hermoso camino, prometiéndonos que el amor, la risa y el respeto serán permanentes en cada línea de nuestro futuro.</p>
+          <p>Tomamos la decisión de seguir avanzando y construyendo juntos.</p>
+          <p>Tu cariño y tu apoyo es muy importante para nosotros, y queremos que sean parte de esta celebración.</p>
+          <p>¡Te invitamos a brindar por la permanencia de nuestro amor, un amor que ha vencido al tiempo y a la distancia!</p>
+        </div>
+        <div class="espera-imagen">
+          <div class="imagen"><img src="img/IMG_20240406_232634.jpg" alt="Brindis de celebración"></div>
+        </div>
+      </div>
+    </section>
+<img src="img/bordes_izquierdos.webp" alt="Girasoles decorativos izquierdo" class="girasol-seccion-espera">
+
+    <div class="eventos-container fade-in">
+      <section class="evento evento-izquierda">
+        <h2>Ceremonia Civil</h2>
+        <p>📍 Registro Civil - Holmberg, CABA<br>🗓️ Viernes 2 de Enero 2026 - 12:30hs</p>
+        <div class="botones-evento">
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+Javier+%26+Vanessa+-+Ceremonia+Civil&dates=20260102T153000Z/20260102T163000Z&details=Ceremonia+Civil+de+Javier+y+Vanessa&location=Registro+Civil+-+Holmberg%2C+CABA" target="_blank" class="agendar">📅 Agendar</a>
+          <a href="https://maps.app.goo.gl/xQSJrQmMmohpoxbD6" target="_blank" class="agendar">🗺️ Ver en Maps</a>
+        </div>
+      </section>
+
+      <section class="evento evento-derecha">
+        <h2>Recepción</h2>
+        <p>📍 Aires del Campo - Buenos Aires<br>🗓️ Sábado 3 de Enero 2026 - 16:00hs</p>
+        <div class="botones-evento">
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda+Javier+%26+Vanessa+-+Recepci%C3%B3n&dates=20260103T190000Z/20260104T020000Z&details=Recepci%C3%B3n+de+la+boda+de+Javier+y+Vanessa&location=Aires+del+Campo+-+Buenos+Aires" target="_blank" class="agendar">📅 Agendar</a>
+          <a href="https://maps.app.goo.gl/ZT8vuqF7vAQjyPWC8?g_st=iwb" target="_blank" class="agendar">🗺️ Ver en Maps</a>
+        </div>
+      </section>
+    </div>
+
+    <section class="fade-in" id="seccion-confirmacion">
+      <div class="confirmacion-contenido">
+        <h2>Confirmación</h2>
+        <p>Queremos compartir este momento tan especial contigo 💌<br>Por favor confirmá tu asistencia.</p>
+        <a href="https://forms.gle/PPKCRrkuXZz8ZnxU7" target="_blank" class="agendar">💛 Confirmar Asistencia</a>
+      </div>
+    </section>
+
+    <section class="fade-in seccion-virtual">
+      <h2>Acompañamiento Virtual</h2>
+      <p>La distancia puede separar cuerpos, pero nunca corazones. 💖
+        Los sentimos cerca, acompañándonos con su amor y sus buenos deseos.
+        Les compartimos este link para que vivan con nosotros este momento tan especial. 💻✨💻✨</p>
+      <a href="https://meet.google.com/zcy-htzg-mar" target="_blank" class="agendar virtual-link">🎥 Unirse a la Ceremonia Virtual</a>
+    </section>
+
+    <!-- 🌻 SECCIÓN REGALOS -->
+    <section class="fade-in" id="seccion-regalos">
+      <div class="regalos-contenido">
+        <h2>Regalos</h2>
+        <p>Si deseas regalarnos algo más que tu hermosa presencia...</p>
+        <div class="icono-regalo">🎁</div>
+        <button onclick="mostrarAlias()" class="boton-regalos">💝 Enviar Regalo</button>
+        <div id="alias-regalo" style="display: none; margin-top: 15px; font-size: 1.2em; color: #c9a961; font-weight: bold;">Alias: bodajavieryvane</div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footer-mensaje">Gracias por compartir con nosotros este momento que marca un nuevo comienzo.</p>
+      <p class="footer-firma">Los Bernardez Contreras</p>
+    </footer>
+  </div>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
