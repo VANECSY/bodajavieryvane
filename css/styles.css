@@ -1134,3 +1134,308 @@ footer b {
   animation: caerPetaloAmarillo linear forwards;
 }
 
+/* === RESPONSIVE - MÓVILES === */
+@media (max-width: 768px) {
+  /* Overlay de entrada */
+  .fade-overlay h2 {
+    font-size: 2.5em;
+    padding: 0 20px;
+  }
+  
+  .girasol-overlay {
+    font-size: 2.5em;
+  }
+  
+  .overlay-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Header */
+  header {
+    padding: 60px 15px 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  /* Intro */
+  .intro {
+    padding: 80px 20px;
+    min-height: 100vh;
+  }
+  
+  .intro h2 {
+    font-size: 2em;
+    padding: 0 15px;
+  }
+  
+  .intro p {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  
+  .intro .button-container {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .intro .button {
+    width: 100%;
+    max-width: 280px;
+    font-size: 1em;
+    padding: 14px 25px;
+  }
+  
+  /* Contador */
+  .contador-wrapper {
+    max-width: 90%;
+    margin: 80px auto;
+    min-height: 300px;
+  }
+  
+  .marco-contador {
+    max-width: 100%;
+  }
+  
+  .contador {
+    padding: 50px 20px 40px;
+    max-width: 100%;
+  }
+  
+  .contador h3 {
+    font-size: 1.3em;
+  }
+  
+  .time {
+    gap: 8px;
+  }
+  
+  .time div {
+    min-width: 55px;
+  }
+  
+  .time span {
+    font-size: 1.8em;
+  }
+  
+  .time small {
+    font-size: 0.75em;
+  }
+  
+  /* Ocultar girasoles decorativos laterales en móvil */
+  .girasol-contador-izq,
+  .girasol-historia-derecho,
+  .girasol-seccion-espera {
+    display: none;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 60px 15px;
+  }
+  
+  section h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  /* Historia y Espera */
+  .historia-contenido,
+  .espera-contenido {
+    padding: 30px 20px;
+    gap: 25px;
+  }
+  
+  .historia-texto,
+  .espera-texto {
+    min-width: 100%;
+  }
+  
+  .historia-texto h2,
+  .espera-texto h2 {
+    font-size: 2.2em;
+  }
+  
+  .historia-texto p,
+  .espera-texto p {
+    font-size: 1em;
+    text-align: left;
+    text-indent: 1.5em;
+  }
+  
+  .historia-imagen,
+  .espera-imagen {
+    min-width: 100%;
+  }
+  
+  .imagen {
+    max-width: 100%;
+    margin: 20px auto;
+  }
+  
+  /* Eventos */
+  .eventos-container {
+    padding: 60px 15px;
+    gap: 20px;
+  }
+  
+  .evento {
+    min-width: 100%;
+    padding: 40px 25px;
+  }
+  
+  .evento h2 {
+    font-size: 2.2em;
+  }
+  
+  .evento p {
+    font-size: 1em;
+  }
+  
+  .botones-evento {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .botones-evento .agendar {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Confirmación */
+  .confirmacion-contenido {
+    padding: 40px 25px;
+  }
+  
+  .confirmacion-contenido h2 {
+    font-size: 2.2em;
+  }
+  
+  .confirmacion-contenido p {
+    font-size: 1em;
+  }
+  
+  /* Sección Virtual */
+  .seccion-virtual {
+    margin: 30px 15px;
+    padding: 50px 25px;
+  }
+  
+  .seccion-virtual h2 {
+    font-size: 2.2em;
+  }
+  
+  .seccion-virtual p {
+    font-size: 1em;
+  }
+  
+  .virtual-link {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 14px 25px;
+  }
+  
+  /* Regalos */
+  .regalos-contenido {
+    padding: 40px 25px;
+  }
+  
+  .regalos-contenido h2 {
+    font-size: 2.2em;
+  }
+  
+  .regalos-contenido p {
+    font-size: 1em;
+  }
+  
+  .boton-regalos {
+    width: 100%;
+    max-width: 280px;
+    padding: 14px 30px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 50px 15px;
+  }
+  
+  .footer-mensaje {
+    font-size: 1.6em;
+  }
+  
+  .footer-firma {
+    font-size: 2em;
+  }
+  
+  /* Botones generales */
+  .agendar {
+    font-size: 0.95em;
+    padding: 12px 20px;
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+/* === RESPONSIVE - MÓVILES PEQUEÑOS === */
+@media (max-width: 480px) {
+  .fade-overlay h2 {
+    font-size: 2em;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.3em;
+  }
+  
+  .intro h2 {
+    font-size: 1.7em;
+  }
+  
+  .contador h3 {
+    font-size: 1.1em;
+  }
+  
+  .time span {
+    font-size: 1.5em;
+  }
+  
+  section h2,
+  .historia-texto h2,
+  .espera-texto h2,
+  .evento h2,
+  .confirmacion-contenido h2,
+  .seccion-virtual h2,
+  .regalos-contenido h2 {
+    font-size: 1.8em;
+  }
+  
+  .footer-mensaje {
+    font-size: 1.4em;
+  }
+  
+  .footer-firma {
+    font-size: 1.8em;
+  }
+}
+
